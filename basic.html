@@ -1,0 +1,152 @@
+<!-- Complete this worksheet in HTML and CSS. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on HTML tags and CSS. -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        
+
+         }
+           p {
+    
+                color: #686868;
+                font-size: 16px;
+                font-family: 'Open Sans', serif;
+                width: 50%;
+            }
+            #quote {
+                color: gray;
+                font-style: italic;
+                border: solid lightskyblue 2px;
+            }
+            #books {
+                font:oblique;
+            }
+            #bargraph {
+                border: 1px solid gray;
+                padding-left: 10px;
+                padding-bottom: 10px;
+                width: 25%;
+            }
+            .bar_label {
+                color: red;
+            }
+            #longest {
+                width: 300px;
+                height: 10px;
+                background: gray;
+                border: 1px solid red;
+            }
+            #longer {
+                
+            }
+            #long {
+                
+            }
+
+        </style>
+    </head>
+    
+    <body>
+
+<h1> A little bit about me! </h1>
+       
+        <h2>  My intro </h2>  
+                <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+        <!-- Tags to use: <p>, <strong>, <i> -->
+        
+        <p> My name is Adam Gotkin, and I am from a suburb in Maryalnd just outside of <strong> Washington, DC. </strong> What I like to do for fun is pretty much the same as what I study. I am a <i> Broadcast and Digital Journalism </i> major who really just loves to watch and report on sports. I spend most of my weekends working at one of the on campus publications, whether that be CitrusTV, WAER, or Z89. </p>
+        <p> I have one older brother, my mom and my dad in my family. We are all very close though I barely live at home and my brother is out of school and moved to Boston. 
+
+        <h2>My handles</h2>
+        <!-- Include: at least two handles for your social media accounts -->
+        <!-- Tags to use: <p>, <a> -->
+            <p> I want to show you <a href="https://twitter.com/adam_gotkin" target="_blank">my Twitter account </a> that has most of the work that I do. I also have a very old personal website that hasn't been touched since high school but is still <a href="https://adamgotkin24.wixsite.com/website"> fun to look at. </a></p>
+
+    
+        <h2> ~ Challenge: Why is my text maroon? ~</h2>
+        <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
+        <p>My text is gray.</p>
+
+
+        <h2>My favorite meme</h2>
+        <!-- Include: "large_wink.png" as an image -->
+        <!-- Tags to use: <img> -->
+        <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+<img src="patterson.png" alt="A photo of a Syracuse basketball player who isn't that good but has his face on a goat" height="300px" width="400px">
+    
+        <h2>Why I'm a great student</h2>
+        <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
+        <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+                <li>I'm not a very great student.</li>
+                <li> <strong> I always forget that I have homework to do... </strong></li>
+                <li>I am nice to teachers so I guess that counts for something.</li>
+                <li>I try my best</li>
+            </ul>
+    
+        <h2>Top 3 most famous people from my hometown</h2>
+        <!-- Include: an ordered list -->
+        <!-- Tags to use: <ol>, <li>, <a> -->
+
+<ol>
+                <li>The rapper <a href= https://en.wikipedia.org/wiki/Logic_(rapper)> Logic </a></li>
+                <li>ESPN Reporter Tim Kurkjian</li>
+                <li>NFL Wide Reciever Stefon Diggs</li>
+                <li>Actor Paul James</li>
+            </ol>
+
+        <h2> ~ Challenge: Read my poetry ~</h2>
+        <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+        <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
+    <p> College is so fun</p>
+    <br> 
+    <p> I am always so busy</p>
+    <br> 
+    <p> Is it even fun> </p>
+
+        <h2>This is one of my favorite quotes</h2>
+        <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+        <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+            <h3> <p id=quote> I'm not sure I can do this considering that I don't think I could give a single quote from a single book. I am not a reader at all. </p> </h3>
+
+    
+
+        <h2>These are more of my favorite books</h2>
+        <!-- Include: an unordered list of at least three books, list items should have a border -->
+        <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+            <p> Again for this section, I don't think I could even name three books that I've read but I'll try my best here. </p> 
+           <div style="border: 2px solid red; width: 50%;">
+        <ul>
+                <li>Diary of a Wimpy Kid</li>
+                <li id=books> Harry Potter </li>
+                <li>I honestly can't think of other books.</li>
+                <li>The bible?</li>
+
+</ul>
+</div>
+        <h2>Here's how I normally spend my weekend</h2>
+        <!-- Include: a complete Datawrapper chart (you can make up data) showing what you normally spend time on over the weekend; must include all requirements of a complete chart (hed, subhed, intentional colors, byline, etc.) -->
+        <!-- Tags to use: <iframe> -->
+
+
+        <h3>~ Challenge: A very simple bar graph ~</h3>
+        <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. (Use the CSS in #longest as a reference.) You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+        <div id="bargraph">
+            <h4>Length of bars</h4>
+            <p class="bar_label">Longest</p>
+            <div id="longest"></div>
+            <p class="bar_label">Longer</p>
+            <div id="longer"></div>
+            <p class="bar_label">Long</p>
+            <div id="long"></div>
+        </div>
+     
+    </body>
+</html>
